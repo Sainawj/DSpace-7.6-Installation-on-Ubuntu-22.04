@@ -37,8 +37,12 @@ You can download and run the DSpace 7.6 installation script directly from GitHub
 
 1. **Download the script**
 Download the script to your home directory
+2. **Set the Required Permissions**
+   Make the script executable:
+3. **Run the installation Script**
+   - During the execution, you will be prompted to edit local.cfg and Nginx configuration manually.
+   - You may also need to run certbot manually to set up SSL.
 ```bash
-cd
-wget https://github.com/DSpace-7.6-Installation-on-Ubuntu-22.04/install-dspace.sh
-chmod +x install-dspace.sh
-sudo ./install-dspace.sh
+cd && wget https://github.com/DSpace-7.6-Installation-on-Ubuntu-22.04/install-dspace.sh && chmod +x install-dspace.sh && sudo ./install-dspace.sh
+
+
