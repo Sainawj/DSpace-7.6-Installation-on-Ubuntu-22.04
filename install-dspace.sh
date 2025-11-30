@@ -15,8 +15,8 @@ DS_USER="dspace"
 DB_PASS="dspace"  # Change this to a strong password
 DS_HOST="localhost" # Change to your server host if needed
 JAVA_HOME="/usr/lib/jvm/java-1.11.0-openjdk-amd64"
-DS_DIR="/opt/dspace-7/server"
-CLIENT_DIR="/opt/dspace-7/client"
+DS_DIR="/opt/dspace/server"
+CLIENT_DIR="/opt/dspace/client"
 
 ########################################
 # 1. Update packages
